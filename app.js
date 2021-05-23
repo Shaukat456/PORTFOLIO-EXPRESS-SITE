@@ -19,6 +19,9 @@ router.set('view engine ','hbs')
 
 
 
+
+
+
 router.get('/',(req,res)=>{
  res.render('index')
 })
