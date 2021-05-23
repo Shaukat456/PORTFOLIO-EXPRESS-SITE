@@ -10,9 +10,6 @@ router.use(express.urlencoded({extended:false}))
 
 
 
-// router.set('views', path.join(__dirname, 'views'));
-
-
 
 router.set('view engine ','hbs')
 
